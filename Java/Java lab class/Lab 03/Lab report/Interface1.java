@@ -1,18 +1,18 @@
-interface Resizable {
-    void resize(int width, int height);
-}
+interface A{
 
-class Rectangle implements Resizable {
-    private int width;
-    private int height;
-
-    // Constructor and other methods
-
-    @Override
-    public void resize(int width, int height) {
-        this.width = width;
-        this.height = height;
-        System.out.println("Rectangle resized to width: " + width + ", height: " + height);
+    void draw();
     }
-}
-
+    class Rectangle implements A{
+    public void draw(){System.out.println("Drawing rectangle");}
+    }
+    class Circle implements A{
+    public void draw(){System.out.println("Drawing circle");}
+    }
+    class Interface1{
+    public static void main(String args[]){
+    A d=new Circle();
+    A e=new Rectangle ();
+    d.draw();
+    e.draw();
+    }
+    }
