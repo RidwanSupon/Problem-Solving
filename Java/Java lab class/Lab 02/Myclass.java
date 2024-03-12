@@ -20,6 +20,9 @@ public static void main(String[] args){
 	System.out.println(c1.get_id());
 	c1.increment();
 	System.out.println(c1.get_id());
+	
+	c1.decrement();
+	System.out.println(c1.get_id());
 	 
 }
 }
