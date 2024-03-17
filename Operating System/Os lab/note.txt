@@ -1,0 +1,39 @@
+#opn folder
+cd folderName
+
+#create folder
+mkdir foldername
+
+#delete folder
+rmdir foldername
+
+#create file
+touch file.txt
+
+#edit from command promft
+echo "Hello world">file.txt
+
+#copy content one file to another with (cp)
+cp sourcefile.txt destination.txt
+
+#move file to new destination/new folder
+mv file.txt new_location
+
+#remove file
+rm fileName
+
+#showing content of file.txt 
+cat file.txt
+
+#for permission remove 
+sudo chmod u-rw filename.txt
+
+#for permission given
+sudo chmod u+rw filename.txt
+sudo chmod 664 filename.txt
+
+# sudo adduser User_name
+# sudo passwd User_name
+#id user_name
+#sudo userdel user_name
+
