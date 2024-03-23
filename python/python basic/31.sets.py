@@ -2,7 +2,7 @@
 #duplicate value allowed na. thakleo ekbar show korbe shudu
 
 
-num1 = {1,2,3,4,5,6,7,}
+num1 = {1,2,3,4,5,6,7}
 print(num1)
 
 num2 = set([4,5,6])
