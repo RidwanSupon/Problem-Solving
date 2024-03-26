@@ -1,6 +1,8 @@
-def add(a,b):
-    sum = a+b
-    return sum
+def greater(a,b):
+    if a>b:
+        return a
+    else:
+        return b
 
-res = add(20,3)
+res = greater(20,3)
 print(res)
